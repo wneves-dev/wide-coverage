@@ -1,0 +1,149 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 47px 36px 161px 42px;
+}
+
+.link-header {
+  color: #17233D;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  margin-right: 32px;
+}
+
+.button-header {
+
+  /* Propriedades do Botão */
+  border-radius: 6px;
+  /* border: 1px solid #4CB538; */
+  border: none;
+  background: #6FBF44;
+  width: 124px;
+  height: 51px;
+
+  /* Propriedades da Fonte interna do Botão */
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.logo-image {
+  width: 533.834px;
+  height: 466.9px;
+  margin-left: 121px;
+  display: inline-block;
+}
+
+section {
+  display: inline-block;
+  margin-left: 57px;
+}
+
+h1 {
+  color: #161A49;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: 0.596px;
+  width: 582px;
+}
+
+p {
+  color: #4B505A;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  width: 493px;
+  margin-top: 47px;
+  margin-bottom: 55px;
+  text-align: justify;
+}
+
+span {
+  color: #6FBF44;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 390px) {
+
+  .link-header {
+    display: none;
+  }
+
+  .button-header {
+    margin-top: -17px;
+    margin-left: 203px;
+  }
+
+  section {
+    /* width: 100%; */
+    display: block;
+    /* margin: 124px 55px 0 57px; */
+  }
+
+  h1 {
+    width: 379px;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.596px;
+    /* margin: 124px 55px 0 57px; */
+    text-align: center;
+    position: relative;
+    top: -106px;
+    left: -50px;
+  }
+
+  p {
+    width: 379px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+    /* margin: 44px 43px 32px 43px; */
+    text-align: center;
+    position: relative;
+    top: -119px;
+    left: -50px;
+  }
+
+  span {
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-align: center;
+    position: relative;
+    top: -154px;
+    left: -31px;
+  }
+
+  .logo-image {
+    width: 375px;
+    height: 355px;
+    display: block;
+    position: absolute;
+    /* margin: 425px 5px 30px 10px; */
+    top: 478px;
+    left: -110px;
+  }
+
+
+
+}
